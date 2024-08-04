@@ -73,3 +73,4 @@ end
 
 gem 'line-bot-api'
 gem 'octokit'
+gem 'dotenv-rails', groups: [:development, :test]
