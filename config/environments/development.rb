@@ -69,5 +69,6 @@ Rails.application.configure do
   # config.action_cable.disable_request_forgery_protection = true
 
   # ホスト認証の設定を追加
-  config.hosts << "7f2d-58-183-104-101.ngrok-free.app"
+  # ngrokのurlを更新するたびに変更する
+  config.hosts << "bb69-58-183-104-101.ngrok-free.app"
 end
