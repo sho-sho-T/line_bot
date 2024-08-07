@@ -5,6 +5,7 @@ WORKDIR /app
 COPY Gemfile /app/Gemfile
 COPY Gemfile.lock /app/Gemfile.lock
 RUN bundle install
+COPY .env /app
 COPY . /app
 
 EXPOSE 3000
