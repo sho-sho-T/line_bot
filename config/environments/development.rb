@@ -68,7 +68,6 @@ Rails.application.configure do
   # Uncomment if you wish to allow Action Cable access from any origin.
   # config.action_cable.disable_request_forgery_protection = true
 
-  # ホスト認証の設定を追加
-  # ngrokのurlを更新するたびに変更する
-  config.hosts << "bb69-58-183-104-101.ngrok-free.app"
+  # ホスト認証の設定を追加。ngrokのurlを更新するたびに変更する
+  config.hosts << "033d-58-183-104-101.ngrok-free.app"
 end
